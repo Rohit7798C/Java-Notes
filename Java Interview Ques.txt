@@ -1,0 +1,199 @@
+Q) What is Java ? And why is it not considered a pure object-oriented programming language ?
+Ans - Java is a class based object-oriented programming language, known for its simplicity         and portability.
+- Key Feature: Write once, Run Anywhere (WORA). 
+- It is not pure OOP because primitive data types (e.g., int, char) are not objects, and static methods/variables break the rule “everything is an object.” Wrapper classes provide object versions of primitives, but direct operations on primitives are allowed.​
+
+Q2) Key Components to Run Java Program
+
+- Java source files are compiled to bytecode by the Java Compiler (part of JDK).
+
+- Bytecode is platform-independent and run by the JVM.
+
+- JDK (Java Development Kit): All tools for development, includes compiler.
+
+- JRE (Java Runtime Environment): Includes JVM, needed to run bytecode.
+
+- JVM (Java Virtual Machine): Runs bytecode on any system.​
+
+Q3) What are the Main Features of Java ?
+
+- Simple syntax; avoids tricky concepts like pointers
+
+- Platform-independent
+
+-Strong security features
+
+- Automatic memory management and error handling
+
+- Supports multithreading
+
+- Can interact with other languages (C/C++).​
+
+Q4) Java String Pool
+
+- A memory area that stores strings efficiently for reuse.
+
+- If a string already exists in the pool, new references point to the same memory, saving space.
+
+- Strings created with new keyword are not placed in the string pool.​
+
+Q5) Wrapper Classes
+
+- Enable primitives to be manipulated as objects for flexibility.
+
+- Used in collections (which only store objects).
+
+- Auto-boxing and unboxing convert between primitives and wrapper classes automatically.​
+
+Q6) Java Collections Scenario
+- Online Bookstore Example using Collections
+
+- ArrayList for list of books (dynamic array)
+
+- HashSet for unique genres (no duplicates)
+
+- HashMap for mapping authors to book lists (key-value)
+
+- Collections offer built-in methods for manipulation and searching.​
+
+Q7) Essential Keywords
+- this and super
+
+- this: Refers to current object’s members.
+
+- super: Accesses parent class members or constructors.​
+
+Q8) Static vs. Instance Methods
+
+- Static: Belongs to the class, accessed without creating an object, can only access static members.
+
+- Instance: Belongs to objects, accessed via objects, can access both static and instance variables.​
+
+Q9) Constructors
+- Types of Constructors
+
+- Default (no arguments): Called if no constructor is defined.
+
+- Parameterized: Accepts values during object creation.
+
+- No return type, same name as class, automatically called.​
+
+Q10) String Handling
+- StringBuffer vs. StringBuilder
+
+- StringBuffer: Synchronized, thread-safe, slower.
+
+- StringBuilder: Not synchronized, not thread-safe, faster, use when only one thread is changing the string.​
+
+Q11) OOP Principles
+- Abstract Classes vs. Interfaces
+
+- Abstract class: Both abstract and non-abstract methods, single inheritance, can have variables of any type.
+
+- Interface: Only abstract methods, multiple inheritance, all variables are public static final, cannot provide implementation.​
+
+Q12) Method Overloading and Main Method
+
+- Same method name, different parameters.
+
+- Can overload main() but JVM only calls the standard main(String[] args) as entry point.​
+
+Q13) Method Overriding
+
+- Subclass provides implementation for a superclass method, same signature.
+
+- Enables runtime polymorphism.
+
+- Cannot override static or private methods.​
+
+Q14) Exception Handling
+- Exception Handling
+
+- Managed using try, catch, and finally blocks for robust program operation.
+
+- try: risky code
+
+- catch: handle exceptions
+
+- finally: runs regardless of exception occurrence.​
+
+Q15) Threads and Synchronization
+- Thread Lifecycle
+
+- States: New, Runnable, Running, Blocked/Waiting/Sleeping, Terminated.
+
+- Managing states helps with multitasking and resource sharing.​
+
+Q16) Singleton Class
+
+- Only one instance throughout program.
+
+- Achieved via private constructor, static instance, and static “getInstance” method.​
+
+Q17) Object Relationships
+- Aggregation vs. Composition
+
+- Aggregation: Has-a relationship, child can exist independently of parent.
+
+- Composition: Part-of relationship, child’s lifecycle managed by parent object, tightly bound.​
+
+Q18) Advanced Features
+- Anonymous Inner Class
+
+- Quick, onetime-use class, no name, usually used for event handlers and functional interfaces.​
+
+Q19) Type Conversion
+
+- Implicit (automatic widening): Integer to double, handled by compiler.
+
+- Explicit (manual narrowing): Double to int, must be explicitly cast.​
+
+Q20) Volatile Keyword
+
+- Ensures variable changes in one thread are immediately visible to all threads.
+
+- Used for thread-safe access to variables without full synchronization.​
+
+Q21) System Streams
+- system.out, system.err, system.in
+
+- system.out: Standard output
+
+- system.err: Error output
+
+- system.in: Standard input (e.g., for Scanner).​
+
+Q22) Access Specifiers
+- Public, Private, Protected
+
+- Public: Accessible globally.
+
+- Private: Only by the class itself.
+
+- Protected: Within package and subclasses.​
+
+Q23) Final, Finally, Finalize
+- Final: Restricts modification/extension.
+
+- Finally: Executes after try/catch for cleanup.
+
+- Finalize: Called before garbage collection for resource release, seldom used now.​
+
+
+-- Coding Questions (With Pseudocode and Explained Logic)
+Q24) Toggle Characters in a String
+    - Change uppercase letters to lowercase, and vice versa.​
+
+Q25) Count Occurrence of Digits in a Number.
+    - Given a number and a digit, counts how often the digit appears using modulus and    division logic.​
+
+Q26) Reverse Array Using Recursion
+    - Swaps array elements in-place via recursive calls, no extra space except for stack.​
+
+Q26) Check for Anagram Strings.
+
+Q27) Compares frequency of characters in two strings, order doesn't matter
+
+Q28) Reasons behind making string immutable in Java.
+
+Q29) Difference between deep and shallow copy.
