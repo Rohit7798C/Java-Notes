@@ -4,9 +4,7 @@ Ans - Java is a class based object-oriented programming language, known for its 
 - It is not pure OOP because primitive data types (e.g., int, char) are not objects, and static methods/variables break the rule “everything is an object.” Wrapper classes provide object versions of primitives, but direct operations on primitives are allowed.​
 
 Q2) Key Components to Run Java Program
-
-- Java source files are compiled to bytecode by the Java Compiler (part of JDK).
-
+Ans: - Java source files are compiled to bytecode by the Java Compiler (part of JDK).
 - Bytecode is platform-independent and run by the JVM.
 
 - JDK (Java Development Kit): All tools for development, includes compiler.
@@ -16,8 +14,7 @@ Q2) Key Components to Run Java Program
 - JVM (Java Virtual Machine): Runs bytecode on any system.​
 
 Q3) What are the Main Features of Java ?
-
-- Simple syntax; avoids tricky concepts like pointers
+Ans:- Simple syntax; avoids tricky concepts like pointers
 
 - Platform-independent
 
@@ -195,5 +192,6 @@ Q26) Check for Anagram Strings.
 Q27) Compares frequency of characters in two strings, order doesn't matter
 
 Q28) Reasons behind making string immutable in Java.
+
 
 Q29) Difference between deep and shallow copy.
