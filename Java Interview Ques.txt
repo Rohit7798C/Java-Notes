@@ -27,16 +27,14 @@ Ans:- Simple syntax; avoids tricky concepts like pointers
 - Can interact with other languages (C/C++).​
 
 Q4) Java String Pool
-
-- A memory area that stores strings efficiently for reuse.
+Ans: - A memory area that stores strings efficiently for reuse.
 
 - If a string already exists in the pool, new references point to the same memory, saving space.
 
 - Strings created with new keyword are not placed in the string pool.​
 
 Q5) Wrapper Classes
-
-- Enable primitives to be manipulated as objects for flexibility.
+Ans: - Enable primitives to be manipulated as objects for flexibility.
 
 - Used in collections (which only store objects).
 
@@ -195,3 +193,4 @@ Q28) Reasons behind making string immutable in Java.
 
 
 Q29) Difference between deep and shallow copy.
+
