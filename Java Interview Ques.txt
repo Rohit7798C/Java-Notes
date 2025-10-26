@@ -41,7 +41,7 @@ Ans: - Enable primitives to be manipulated as objects for flexibility.
 - Auto-boxing and unboxing convert between primitives and wrapper classes automatically.​
 
 Q6) Java Collections Scenario
-- Online Bookstore Example using Collections
+Ans: - Online Bookstore Example using Collections
 
 - ArrayList for list of books (dynamic array)
 
@@ -52,7 +52,7 @@ Q6) Java Collections Scenario
 - Collections offer built-in methods for manipulation and searching.​
 
 Q7) Essential Keywords
-- this and super
+Ans: - this and super
 
 - this: Refers to current object’s members.
 
@@ -193,4 +193,5 @@ Q28) Reasons behind making string immutable in Java.
 
 
 Q29) Difference between deep and shallow copy.
+
 
