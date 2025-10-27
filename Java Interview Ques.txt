@@ -59,13 +59,12 @@ Ans: - this and super
 - super: Accesses parent class members or constructors.​
 
 Q8) Static vs. Instance Methods
-
-- Static: Belongs to the class, accessed without creating an object, can only access static members.
+Ans: - Static: Belongs to the class, accessed without creating an object, can only access static members.
 
 - Instance: Belongs to objects, accessed via objects, can access both static and instance variables.​
 
 Q9) Constructors
-- Types of Constructors
+Ans: - Types of Constructors
 
 - Default (no arguments): Called if no constructor is defined.
 
@@ -193,5 +192,6 @@ Q28) Reasons behind making string immutable in Java.
 
 
 Q29) Difference between deep and shallow copy.
+
 
 
