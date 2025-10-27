@@ -73,7 +73,7 @@ Ans: - Types of Constructors
 - No return type, same name as class, automatically called.​
 
 Q10) String Handling
-- StringBuffer vs. StringBuilder
+Ans: - StringBuffer vs. StringBuilder
 
 - StringBuffer: Synchronized, thread-safe, slower.
 
@@ -192,6 +192,7 @@ Q28) Reasons behind making string immutable in Java.
 
 
 Q29) Difference between deep and shallow copy.
+
 
 
 
