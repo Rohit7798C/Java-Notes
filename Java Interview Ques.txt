@@ -80,21 +80,19 @@ Ans: - StringBuffer vs. StringBuilder
 - StringBuilder: Not synchronized, not thread-safe, faster, use when only one thread is changing the string.​
 
 Q11) OOP Principles
-- Abstract Classes vs. Interfaces
+Ans: - Abstract Classes vs. Interfaces
 
 - Abstract class: Both abstract and non-abstract methods, single inheritance, can have variables of any type.
 
 - Interface: Only abstract methods, multiple inheritance, all variables are public static final, cannot provide implementation.​
 
 Q12) Method Overloading and Main Method
-
-- Same method name, different parameters.
+Ans: - Same method name, different parameters.
 
 - Can overload main() but JVM only calls the standard main(String[] args) as entry point.​
 
 Q13) Method Overriding
-
-- Subclass provides implementation for a superclass method, same signature.
+Ans:- Subclass provides implementation for a superclass method, same signature.
 
 - Enables runtime polymorphism.
 
@@ -192,6 +190,7 @@ Q28) Reasons behind making string immutable in Java.
 
 
 Q29) Difference between deep and shallow copy.
+
 
 
 
