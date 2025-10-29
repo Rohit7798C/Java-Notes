@@ -99,7 +99,7 @@ Ans:- Subclass provides implementation for a superclass method, same signature.
 - Cannot override static or private methods.​
 
 Q14) Exception Handling
-- Exception Handling
+Ans:- Exception Handling
 
 - Managed using try, catch, and finally blocks for robust program operation.
 
@@ -110,7 +110,7 @@ Q14) Exception Handling
 - finally: runs regardless of exception occurrence.​
 
 Q15) Threads and Synchronization
-- Thread Lifecycle
+Ans:- Thread Lifecycle
 
 - States: New, Runnable, Running, Blocked/Waiting/Sleeping, Terminated.
 
@@ -190,6 +190,7 @@ Q28) Reasons behind making string immutable in Java.
 
 
 Q29) Difference between deep and shallow copy.
+
 
 
 
