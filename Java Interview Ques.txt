@@ -117,13 +117,12 @@ Ans:- Thread Lifecycle
 - Managing states helps with multitasking and resource sharing.​
 
 Q16) Singleton Class
-
-- Only one instance throughout program.
+Ans:- Only one instance throughout program.
 
 - Achieved via private constructor, static instance, and static “getInstance” method.​
 
 Q17) Object Relationships
-- Aggregation vs. Composition
+Ans:- Aggregation vs. Composition
 
 - Aggregation: Has-a relationship, child can exist independently of parent.
 
@@ -190,6 +189,7 @@ Q28) Reasons behind making string immutable in Java.
 
 
 Q29) Difference between deep and shallow copy.
+
 
 
 
