@@ -129,13 +129,12 @@ Ans:- Aggregation vs. Composition
 - Composition: Part-of relationship, child’s lifecycle managed by parent object, tightly bound.​
 
 Q18) Advanced Features
-- Anonymous Inner Class
+Ans:- Anonymous Inner Class
 
 - Quick, onetime-use class, no name, usually used for event handlers and functional interfaces.​
 
 Q19) Type Conversion
-
-- Implicit (automatic widening): Integer to double, handled by compiler.
+Ans:- Implicit (automatic widening): Integer to double, handled by compiler.
 
 - Explicit (manual narrowing): Double to int, must be explicitly cast.​
 
@@ -189,6 +188,7 @@ Q28) Reasons behind making string immutable in Java.
 
 
 Q29) Difference between deep and shallow copy.
+
 
 
 
