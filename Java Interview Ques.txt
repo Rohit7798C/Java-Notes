@@ -139,13 +139,12 @@ Ans:- Implicit (automatic widening): Integer to double, handled by compiler.
 - Explicit (manual narrowing): Double to int, must be explicitly cast.​
 
 Q20) Volatile Keyword
-
-- Ensures variable changes in one thread are immediately visible to all threads.
+Ans:- Ensures variable changes in one thread are immediately visible to all threads.
 
 - Used for thread-safe access to variables without full synchronization.​
 
 Q21) System Streams
-- system.out, system.err, system.in
+Ans:- system.out, system.err, system.in
 
 - system.out: Standard output
 
@@ -188,6 +187,7 @@ Q28) Reasons behind making string immutable in Java.
 
 
 Q29) Difference between deep and shallow copy.
+
 
 
 
