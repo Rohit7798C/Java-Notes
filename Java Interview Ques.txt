@@ -174,7 +174,7 @@ Q24) Toggle Characters in a String
 Ans:- Change uppercase letters to lowercase, and vice versa.​
 
 Q25) Count Occurrence of Digits in a Number.
-Ans:- Given a number and a digit, counts how often the digit appears using modulus and    division logic.​
+Ans:- Given a number and a digit, counts how often the digit appears using modulus and division logic.​
 
 Q26) Reverse Array Using Recursion
 Ans:- Swaps array elements in-place via recursive calls, no extra space except for stack.​
@@ -187,6 +187,8 @@ Q28) Reasons behind making string immutable in Java.
 
 
 Q29) Difference between deep and shallow copy.
+Ans: Deep Copy: When we ourself create a copy constructor and copy the object into new object, it does deep copy.
+Shallow Copy: When we ourself create a copy constructor and copy the object into new object, it does deep copy.
 
 
 
