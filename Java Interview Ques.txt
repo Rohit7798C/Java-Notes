@@ -1,5 +1,5 @@
-Q) What is Java ? And why is it not considered a pure object-oriented programming language ?
-Ans - Java is a class based object-oriented programming language, known for its simplicity         and portability.
+Q1) What is Java ? And why is it not considered a pure object-oriented programming language ?
+Ans - Java is a class based object-oriented programming language, known for its simplicity and portability.
 - Key Feature: Write once, Run Anywhere (WORA). 
 - It is not pure OOP because primitive data types (e.g., int, char) are not objects, and static methods/variables break the rule “everything is an object.” Wrapper classes provide object versions of primitives, but direct operations on primitives are allowed.​
 
@@ -189,6 +189,7 @@ Q28) Reasons behind making string immutable in Java.
 Q29) Difference between deep and shallow copy.
 Ans: Deep Copy: When we ourself create a copy constructor and copy the object into new object, it does deep copy.
 Shallow Copy: When we ourself create a copy constructor and copy the object into new object, it does deep copy.
+
 
 
 
