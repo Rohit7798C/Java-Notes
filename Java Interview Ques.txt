@@ -183,7 +183,7 @@ Q26) Check for Anagram Strings.
 Ans: Use two pointer approach
 
 Q27) Compares frequency of characters in two strings, order doesn't matter
-Ans:
+Ans: Hashmap is used.
 
 Q28) Reasons behind making string immutable in Java.
 Ans:
@@ -191,6 +191,7 @@ Ans:
 Q29) Difference between deep and shallow copy.
 Ans: Deep Copy: When we ourself create a copy constructor and copy the object into new object, it does deep copy.
 Shallow Copy: When we ourself create a copy constructor and copy the object into new object, it does deep copy.
+
 
 
 
