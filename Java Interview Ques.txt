@@ -180,7 +180,7 @@ Q26) Reverse Array Using Recursion
 Ans:- Swaps array elements in-place via recursive calls, no extra space except for stack.​
 
 Q26) Check for Anagram Strings.
-Ans: Use two pointer approach
+Ans: Use two pointer approach and compare each and every character from start and end.
 
 Q27) Compares frequency of characters in two strings, order doesn't matter
 Ans: Hashmap is used.
@@ -193,6 +193,7 @@ Ans: a) Security
 Q29) Difference between deep and shallow copy.
 Ans: Deep Copy: When we ourself create a copy constructor and copy the object into new object, it does deep copy.
 Shallow Copy: When we ourself create a copy constructor and copy the object into new object, it does deep copy.
+
 
 
 
